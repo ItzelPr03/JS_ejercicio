@@ -63,7 +63,7 @@ const comePicante = true;
 let num1 = 25;
 let num2 = 7;
 let num3 = 40;
-
+console.log("Operaciones: ")
 let suma = num1 + num3;
 console.log("suma = "+ suma);
 
@@ -77,6 +77,7 @@ let division = num3/num2;
 console.log("division = "+division);
 
 // texto concatenado
+console.log("Concatenado: ")
 let texto1 = "Me gusta aprender "
 let texto2 = "sobre programacion "
 let texto3 = "en el bootcamp de Generation "
@@ -87,10 +88,17 @@ let oracion = texto1+texto2+texto3+texto4+texto5
 console.log(oracion)
 
 //Conversion
+console.log("Conversion: ")
 let edadString1 = String(edad1)
+console.log(edadString1)
 let mascotaString1 = String(numMascotas1) 
+console.log(mascotaString1)
 let mayorEdadNum1 = Number(mayorEdad1)
+console.log(mayorEdadNum1)
 let mayorEdadNum3 = Number(mayorEdad3)
+console.log(mayorEdadNum3)
 let edadString3 = String(edad3)
+console.log(edadString3)
+
 
 
