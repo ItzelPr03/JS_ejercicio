@@ -52,12 +52,12 @@ let numMascotas4 = 0;
 let mayorEdad4 = true;
 let comePicante4 = false;
 
-const nombre5 = "Mariana"
-const apellido5 = "Cruz"
-const edad5 = 14;
-const numMascotas5 = 1;
-const mayorEdad5 = false;
-const comePicante = true;
+const NOMBRE5 = "Mariana"
+const APELLIDO5 = "Cruz"
+const EDAD5 = 14;
+const NUM_MASCOTAS5 = 1;
+const mAYOR_EDAD5 = false;
+const COME_PICANTE5 = true;
 
 // operaciones
 let num1 = 25;
