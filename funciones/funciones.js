@@ -84,6 +84,6 @@ function voltaje(r,c){
 }
 
 //Calcular volumen de una esfera
-// function volumenEsfera(radio){
-//     console.log("Volumen= "+ )
-// }
+function volumenEsfera(radio){
+    console.log("Volumen= "+ (Math.pow(radio,3)*Math.PI*(4/3)) )
+}
