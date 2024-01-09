@@ -41,3 +41,46 @@ const miFuncionFlecha = () => {
 
 // cuando es una sola instruccion, se pueden omitir las llaves {
 
+/////////////////////////////////////////////////////////////////////////////////
+
+/**Ejercicios para esta sesion
+ * 
+ * Declara una funcion para cada problema planteado
+ * 
+ * 1. calcular el perimetro de un circulo
+ * 2. calcular el area de un rectangulo
+ * 3. calcular el cuadrado de un numero
+ * 4. calcular la conversion de grados celsius a farenheit
+ * 5. calcular el valor del voltaje dadas la resistencia y la corriente
+ * 6. calcular el volumen de una esfera
+ * 
+ * CONSIDERACIONES: poner en practica las mejores practicas para declarar funciones
+ * Los ejercicios se entregan tanto en funciones con nombre como funciones flecha
+ */
+
+//Calcular perimetro
+function perimetro(radio){
+    console.log("perimetro= "+radio*2*Math.PI)
+}
+
+//Calcular area de un rectangulo
+function areaRectangulo(b,h){
+    console.log("area= "+ b*h)
+}
+
+//calcular el cuadrado de un numero
+function cuadrado(a){
+    console.log("cuadrado= "+ a*a)
+}
+
+//Celcius a farenheit
+function grados(a){
+    console.log("farenheit= "+( a * (9/5)+32))
+}
+
+//Calcular voltaje
+function voltaje(r,c){
+    console.log("voltaje= "+ r*c)
+}
+
+//Calcular volumen de una esfera
