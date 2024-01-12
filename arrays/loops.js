@@ -95,3 +95,5 @@ const factorial = (num) => {
     }
     return num;
 }
+
+// Las funciones flecha reciben un parametro o argumento, si usamos un array como argumento se debe usar parenttesis y corchetes([])
