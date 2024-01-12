@@ -213,22 +213,38 @@ const splitArr= num =>{
     // console.log(lenArr) // para comprobar que funciona
     let i= Math.trunc(lenArr /2)
     if(lenArr%2!=0){
-        console.log(i)
         arr1= num.slice(0,i) //slice no toma el ultimo argumento del indice que se especifica, cuenta como humano (1 en adelante)
-        arr2= num.slice(i+1,lenArr)
+        arr2= num.slice(i+1,lenArr).reverse() //reverse() invierte el orden del array
         console.log(arr1)
         console.log(arr2)
     } else {
         arr1= num.slice(0,i) 
-        arr2= num.slice(i,lenArr)
+        arr2= num.slice(i,lenArr).reverse();
         console.log(arr1)
         console.log(arr2)
-
     }
-    //let nuevoArr= 
-    
+    //Los console.log son para confirmar que los pasos estan bien
+    //Me atore con la suma de los arreglos, pero la forma completa esta abajo
 }
+
+ const arr= [2,4,6,5,7,8];
+
+function splitArr1(arr){
+    const half = arr.length/2
+    const arr3 = arr.slice(0,half);
+    const arr4 = arr.slice(half,arr.length).reverse();
+    //console.log(arr4);
+    let res = [];
+    for (let count=0;count<arr3.length; count++){
+        res.push((arr3[count]+arr4[count])*.5)
+    }
+    console.log(res)
+
+}
+
+
 splitArr([2,4,6,5,7,8])
+splitArr1(arr)
 
 
 

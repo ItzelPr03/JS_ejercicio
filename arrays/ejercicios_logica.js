@@ -1,4 +1,5 @@
 //Realiza los siguientes ejercicios en JS y entrega por medio de un link tu repositorio que contiene los ejercicios resueltos.
+// Se utilizo install prompt-sync para poder ver los prompts en la terminal e interactuar con esta
 
 
 /*
