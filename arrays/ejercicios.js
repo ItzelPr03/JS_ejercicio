@@ -224,7 +224,11 @@ const splitArr= num =>{
         console.log(arr2)
     }
     //Los console.log son para confirmar que los pasos estan bien
-    //Me atore con la suma de los arreglos, pero la forma completa esta abajo
+    let sum=[]
+    for(let count=0; count<arr1.length;count++){
+        sum.push((arr1[count]+arr2[count])*.5)
+    }
+    console.log(sum)
 }
 
  const arr= [2,4,6,5,7,8];

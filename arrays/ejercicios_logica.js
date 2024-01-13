@@ -10,7 +10,19 @@ Take note that the output for the films should add a small message like: 'The fi
 */
 const prompt=require("prompt-sync")();
 
+// const nombreUsuario = prompt("Introduzca su nombre")
+// const age = prompt("Introduzca su edad")
+// let pelisFav= prompt ("Introduzca una pelicula favorita")
+// let otraPeli = prompt("Desea agregar otra pelicula? S/N")
 
+// if(otraPeli="S"){
+//     pelisFav.push=prompt("Introduzca otra pelicula favorita")
+// }else if(otraPeli=="N"){
+//     console.log("una de mis pelis favs es " + pelisFav[0])
+// } else{
+//     prompt("elija de nuevo")
+// }
+// console.log(`Nombre de usuario: ${nombreUsuario} Una de mis pelis favs es: ${pelisFav}`)
 
 
 
@@ -21,6 +33,17 @@ Write a program that asks for 10 numbers.
 Using logical operators and any other javascript functions/structures you've seen before, 
 determine and output the highest of those numbers.
 */
+// const numeros= prompt("introduzca 10 numeros")
+let arr=[]
+for(let count=0;count<10;count++){
+    const numeros= prompt("introduzca "+ (10-count)+" numeros")
+    arr.push(numeros)
+    
+}
+
+console.log(arr)
+console.log(Math.max(parseInt(arr)))
+
 
 /*
 Alarm
